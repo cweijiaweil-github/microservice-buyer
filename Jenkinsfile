@@ -23,7 +23,7 @@ pipeline {
         stage('Run') { 
             steps { 
                 echo "Run Docker Image" 
-                bat 'docker run -d -p 8081:8081 micro-buyer:v1' 
+                bat 'docker run -d -p 8082:8082 micro-buyer:v1' 
             } 
         }     
     }
